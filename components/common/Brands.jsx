@@ -1,5 +1,5 @@
 import BrandSlider from "@/components/common/BrandSlider";
-import React from "react";
+
 import SplitTextAnimation from "./SplitTextAnimation";
 
 export default function Brands({

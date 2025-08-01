@@ -1,7 +1,7 @@
 import OdometerComponent from "@/components/common/OdometerComponent";
 import { counters2 } from "@/data/facts";
 import Image from "next/image";
-import React from "react";
+
 
 export default function Facts() {
   return (

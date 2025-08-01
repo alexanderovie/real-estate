@@ -1,4 +1,4 @@
-import React from "react";
+
 import Slider3 from "./sliders/Slider3";
 import PropertyOverview from "./PropertyOverview";
 import VideoReview from "./VideoReview";

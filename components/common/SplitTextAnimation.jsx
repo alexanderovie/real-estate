@@ -1,5 +1,6 @@
 "use client";
-import React, { useEffect } from "react";
+import React from "react";
+import { useEffect, useRef } from "react";
 
 export default function SplitTextAnimation({
   text = "Grow your business with a new website.",

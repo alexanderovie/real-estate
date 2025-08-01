@@ -1,6 +1,6 @@
 "use client";
 import { blogPosts } from "@/data/blogs";
-import React from "react";
+
 import { Swiper, SwiperSlide } from "swiper/react";
 import Link from "next/link";
 import Image from "next/image";

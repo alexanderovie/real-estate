@@ -19,7 +19,7 @@ const projects = [
 ];
 
 import Image from "next/image";
-import React from "react";
+
 import { EffectFade, Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 

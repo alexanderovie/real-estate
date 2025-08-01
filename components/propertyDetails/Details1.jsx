@@ -1,4 +1,4 @@
-import React from "react";
+
 import PropertyOverview from "./PropertyOverview";
 import VideoReview from "./VideoReview";
 import ExtraInfo from "./ExtraInfo";

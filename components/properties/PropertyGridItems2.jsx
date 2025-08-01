@@ -1,7 +1,7 @@
 import { properties11 } from "@/data/properties";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+
 
 export default function PropertyGridItems2() {
   return (

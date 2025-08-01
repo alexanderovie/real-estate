@@ -1,6 +1,6 @@
 import DropdownSelect from "@/components/common/DropdownSelect";
 import Image from "next/image";
-import React from "react";
+
 
 export default function LoanCalculator() {
   return (

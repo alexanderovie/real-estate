@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+
 import DropdownSelect from "../common/DropdownSelect";
 import { properties4 } from "@/data/properties";
 import { agenciesData } from "@/data/agency";

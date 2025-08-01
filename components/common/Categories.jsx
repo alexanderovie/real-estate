@@ -1,6 +1,6 @@
 "use client";
 import { categories } from "@/data/categories";
-import React from "react";
+
 import { Swiper, SwiperSlide } from "swiper/react";
 import SplitTextAnimation from "./SplitTextAnimation";
 import { Pagination } from "swiper/modules";

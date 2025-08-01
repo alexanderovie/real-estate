@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+
 import Listings from "../agents/Listings";
 import Link from "next/link";
 import Image from "next/image";

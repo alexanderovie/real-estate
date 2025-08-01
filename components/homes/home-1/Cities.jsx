@@ -1,4 +1,4 @@
-import React from "react";
+
 import Image from "next/image";
 import SplitTextAnimation from "@/components/common/SplitTextAnimation";
 import { locations3 } from "@/data/locations";

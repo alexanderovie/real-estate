@@ -1,4 +1,4 @@
-import React from "react";
+
 import MapComponent from "../common/MapComponent";
 import SearchForm from "../common/SearchForm";
 import PropertyListItems2 from "./PropertyListItems2";

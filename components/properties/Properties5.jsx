@@ -1,4 +1,4 @@
-import React from "react";
+
 import MapComponent from "../common/MapComponent";
 import DropdownSelect from "../common/DropdownSelect";
 import SearchForm from "../common/SearchForm";

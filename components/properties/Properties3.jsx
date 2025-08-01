@@ -1,4 +1,4 @@
-import React from "react";
+
 import LayoutHandler from "./LayoutHandler";
 import DropdownSelect from "../common/DropdownSelect";
 import PropertyGridItems from "./PropertyGridItems";

@@ -1,4 +1,4 @@
-import React from "react";
+
 import DropdownSelect from "../common/DropdownSelect";
 import PropertyGridItems from "./PropertyGridItems";
 import PropertyListItems from "./PropertyListItems";

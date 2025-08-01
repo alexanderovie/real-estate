@@ -14,11 +14,22 @@ const inter = Inter({
 
 export const metadata = {
   title: {
-    default: "Fascinante Digital - Real Estate Website Demo",
+    default: "Fascinante Digital - Desarrollo Web Inmobiliario Profesional",
     template: "%s | Fascinante Digital"
   },
-  description: "Demo profesional de sitio web inmobiliario desarrollado por Fascinante Digital. Muestra las capacidades de desarrollo web para agencias y agentes inmobiliarios.",
-  keywords: ["real estate", "inmobiliaria", "desarrollo web", "Fascinante Digital", "agencia inmobiliaria", "sitio web profesional"],
+  description: "Demo profesional de sitio web inmobiliario desarrollado por Fascinante Digital. Soluciones web completas para agencias y agentes inmobiliarios con diseño moderno y funcionalidades avanzadas.",
+  keywords: [
+    "desarrollo web inmobiliario", 
+    "sitio web agencia inmobiliaria", 
+    "Fascinante Digital", 
+    "diseño web profesional", 
+    "real estate website", 
+    "agencia inmobiliaria", 
+    "desarrollo web", 
+    "marketing inmobiliario",
+    "propiedades en venta",
+    "inmobiliaria online"
+  ],
   authors: [{ name: "Fascinante Digital" }],
   creator: "Fascinante Digital",
   publisher: "Fascinante Digital",
@@ -32,16 +43,16 @@ export const metadata = {
     canonical: '/',
   },
   openGraph: {
-    title: "Fascinante Digital - Real Estate Website Demo",
-    description: "Demo profesional de sitio web inmobiliario desarrollado por Fascinante Digital",
+    title: "Fascinante Digital - Desarrollo Web Inmobiliario Profesional",
+    description: "Demo profesional de sitio web inmobiliario desarrollado por Fascinante Digital. Soluciones web completas para agencias y agentes inmobiliarios.",
     url: 'https://fascinantedigital.com',
     siteName: 'Fascinante Digital',
     images: [
       {
-        url: '/images/logo/fascinante-resized.png',
+        url: '/images/opengrafp.png',
         width: 1200,
-        height: 630,
-        alt: 'Fascinante Digital',
+        height: 628,
+        alt: 'Fascinante Digital - Desarrollo Web Inmobiliario Profesional',
       },
     ],
     locale: 'es_ES',
@@ -49,9 +60,9 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Fascinante Digital - Real Estate Website Demo",
-    description: "Demo profesional de sitio web inmobiliario desarrollado por Fascinante Digital",
-    images: ['/images/logo/fascinante-resized.png'],
+    title: "Fascinante Digital - Desarrollo Web Inmobiliario Profesional",
+    description: "Demo profesional de sitio web inmobiliario desarrollado por Fascinante Digital. Soluciones web completas para agencias y agentes inmobiliarios.",
+    images: ['/images/opengrafp.png'],
   },
   robots: {
     index: true,

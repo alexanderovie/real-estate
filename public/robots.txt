@@ -1,0 +1,26 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://fascinantedigital.com/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 1
+
+# Disallow admin and private areas
+Disallow: /admin/
+Disallow: /private/
+Disallow: /api/
+Disallow: /_next/
+Disallow: /static/
+
+# Allow important pages
+Allow: /
+Allow: /contact
+Allow: /blog-list
+Allow: /blog-grid
+Allow: /property-list-left-sidebar
+Allow: /property-grid-full-width
+Allow: /agency-list
+Allow: /agency-grid
+Allow: /agents 

@@ -12,8 +12,8 @@ import Properties2 from "@/components/homes/home-1/Properties2";
 import Testimonials from "@/components/homes/home-1/Testimonials";
 
 export const metadata = {
-  title: "Fascinante Digital - Real Estate Website Demo",
-  description: "Demo profesional de sitio web inmobiliario desarrollado por Fascinante Digital. Muestra las capacidades de desarrollo web para agencias y agentes inmobiliarios.",
+  title: "Fascinante Digital - Desarrollo Web Inmobiliario Profesional",
+  description: "Demo profesional de sitio web inmobiliario desarrollado por Fascinante Digital. Soluciones web completas para agencias y agentes inmobiliarios con diseño moderno y funcionalidades avanzadas.",
 };
 
 export default function Home() {

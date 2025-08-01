@@ -6,36 +6,50 @@ import MobileMenu from "@/components/headers/MobileMenu";
 import SettingsHandler from "@/components/common/SettingsHandler";
 import Login from "@/components/modals/Login";
 import Register from "@/components/modals/Register";
+import WhatsAppWidget from "@/components/common/WhatsAppWidget";
 
 export default function ClientLayout({ children }) {
   const pathname = usePathname();
-  
+
   if (typeof window !== "undefined") {
     import("bootstrap/dist/js/bootstrap.esm").then((module) => {
       // Module is imported, you can access any exported functionality if
     });
   }
-  
+
   useEffect(() => {
     // Close any open modal
-    const bootstrap = require("bootstrap"); // dynamically import bootstrap
-    const modalElements = document.querySelectorAll(".modal.show");
-    modalElements.forEach((modal) => {
-      const modalInstance = bootstrap.Modal.getInstance(modal);
-      if (modalInstance) {
-        modalInstance.hide();
+    const bootstrap = require("bootstrap"); // dynamically impor
+    const modalElement = document.querySelector(".modal");
+    if (modalElement) {
+      const modal = bootstrap.Modal.getInstance(modalElement);
+      if (modal) {
+        modal.hide();
       }
+    }
+
+    // Remove loader
+    const loader = document.querySelector(".popup-loader");
+    if (loader) {
+      loader.classList.remove("popup-loader");
+    }
+
+    // Initialize tooltips
+    const tooltipTriggerList = [].slice.call(
+      document.querySelectorAll('[data-bs-toggle="tooltip"]')
+    );
+    tooltipTriggerList.map(function (tooltipTriggerEl) {
+      return new bootstrap.Tooltip(tooltipTriggerEl);
     });
 
-    // Close any open offcanvas
-    const offcanvasElements = document.querySelectorAll(".offcanvas.show");
-    offcanvasElements.forEach((offcanvas) => {
-      const offcanvasInstance = bootstrap.Offcanvas.getInstance(offcanvas);
-      if (offcanvasInstance) {
-        offcanvasInstance.hide();
-      }
+    // Initialize popovers
+    const popoverTriggerList = [].slice.call(
+      document.querySelectorAll('[data-bs-toggle="popover"]')
+    );
+    popoverTriggerList.map(function (popoverTriggerEl) {
+      return new bootstrap.Popover(popoverTriggerEl);
     });
-  }, [pathname]); // Runs every time the route changes
+  }, [pathname]);
 
   useEffect(() => {
     const WOW = require("@/utlis/wow");
@@ -47,7 +61,7 @@ export default function ClientLayout({ children }) {
     });
     wow.init();
   }, [pathname]);
-  
+
   useEffect(() => {
     const handleSticky = () => {
       const navbar = document.querySelector(".header");
@@ -68,7 +82,7 @@ export default function ClientLayout({ children }) {
     };
 
     window.addEventListener("scroll", handleSticky);
-    
+
     return () => {
       window.removeEventListener("scroll", handleSticky);
     };
@@ -82,6 +96,7 @@ export default function ClientLayout({ children }) {
       <SettingsHandler />
       <Login />
       <Register />
+      <WhatsAppWidget />
     </>
   );
 } 

@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://fascinantedigital.com/sitemap.xml
+Sitemap: https://demo.fascinantedigital.com/sitemap.xml
 
 # Crawl-delay
 Crawl-delay: 1

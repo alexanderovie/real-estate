@@ -38,14 +38,14 @@ export const metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL('https://fascinantedigital.com'),
+  metadataBase: new URL('https://demo.fascinantedigital.com'),
   alternates: {
     canonical: '/',
   },
   openGraph: {
     title: "Fascinante Digital - Desarrollo Web Inmobiliario Profesional",
     description: "Demo profesional de sitio web inmobiliario desarrollado por Fascinante Digital. Soluciones web completas para agencias y agentes inmobiliarios.",
-    url: 'https://fascinantedigital.com',
+    url: 'https://demo.fascinantedigital.com',
     siteName: 'Fascinante Digital',
     images: [
       {

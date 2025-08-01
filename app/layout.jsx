@@ -1,8 +1,16 @@
+import { Inter } from 'next/font/google';
 import "../public/main.scss";
+import "../public/css/fonts.css";
 import "odometer/themes/odometer-theme-default.css"; // Import theme
 import "photoswipe/style.css";
 import "rc-slider/assets/index.css";
 import ClientLayout from "@/components/common/ClientLayout";
+
+const inter = Inter({ 
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-inter',
+});
 
 export const metadata = {
   title: {
@@ -86,7 +94,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="es">
+    <html lang="es" className={inter.variable}>
       <head>
         <link rel="icon" href="/images/favicon/favicon.ico" />
         <link rel="icon" href="/images/favicon/favicon.svg" type="image/svg+xml" />

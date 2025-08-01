@@ -20,22 +20,8 @@ export default function Nav() {
     );
   return (
     <>
-      <li
-        className={`has-child ${
-          homes.some((elm) => elm.href == pathname) ? "current-menu" : ""
-        }`}
-      >
-        <a href="#">Home</a>
-        <ul className="submenu">
-          {homes.map((item, index) => (
-            <li
-              key={index}
-              className={pathname == item.href ? "current-item" : ""}
-            >
-              <Link href={item.href}>{item.label}</Link>
-            </li>
-          ))}
-        </ul>
+      <li className={pathname === "/" ? "current-menu" : ""}>
+        <Link href="/">Home</Link>
       </li>
       <li
         className={`has-child style-2 ${
@@ -118,19 +104,15 @@ export default function Nav() {
           {blogMenu.map((item, index) => (
             <li
               key={index}
-              className={
-                item.href.split("/")[1] == pathname.split("/")[1]
-                  ? "current-item"
-                  : ""
-              }
+              className={pathname == item.href ? "current-item" : ""}
             >
               <Link href={item.href}>{item.label}</Link>
             </li>
           ))}
         </ul>
       </li>
-      <li className={"/contact" == pathname ? "current-menu" : ""}>
-        <Link href={`/contact`}>Contact</Link>
+      <li className={pathname == "/contact" ? "current-menu" : ""}>
+        <Link href="/contact">Contact</Link>
       </li>
     </>
   );

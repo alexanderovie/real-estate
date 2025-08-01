@@ -1,5 +1,5 @@
 export const homes = [
-  { href: "/", label: "Home", isCurrent: true },
+  { href: "/", label: "Home" },
 ];
 
 export const propertyLinks = [

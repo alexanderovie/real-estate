@@ -11,14 +11,6 @@ import SettingsHandler from "@/components/common/SettingsHandler";
 import Login from "@/components/modals/Login";
 import Register from "@/components/modals/Register";
 
-export const metadata = {
-  title: "Fascinante Digital - Real Estate",
-  description: "Sitio web profesional de bienes raíces de Fascinante Digital",
-  keywords: "real estate, bienes raíces, propiedades, Fascinante Digital",
-  viewport: "width=device-width, initial-scale=1",
-  robots: "index, follow",
-};
-
 export default function RootLayout({ children }) {
   const pathname = usePathname();
   if (typeof window !== "undefined") {
@@ -80,14 +72,6 @@ export default function RootLayout({ children }) {
   }, []);
   return (
     <html lang="en">
-      <head>
-        <title>{metadata.title}</title>
-        <meta name="description" content={metadata.description} />
-        <meta name="keywords" content={metadata.keywords} />
-        <meta name="viewport" content={metadata.viewport} />
-        <meta name="robots" content={metadata.robots} />
-        <link rel="icon" href="/images/logo/favicon.svg" />
-      </head>
       <body className="popup-loader">
         {children}
         <MobileMenu />

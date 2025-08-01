@@ -12,9 +12,10 @@ import Properties2 from "@/components/homes/home-1/Properties2";
 import Testimonials from "@/components/homes/home-1/Testimonials";
 
 export const metadata = {
-  title: "Home 01 || Fascinante - Real Estate React Nextjs Template",
-  description: "Fascinante - Real Estate React Nextjs Template",
+  title: "Fascinante Digital - Real Estate Website Demo",
+  description: "Demo profesional de sitio web inmobiliario desarrollado por Fascinante Digital. Muestra las capacidades de desarrollo web para agencias y agentes inmobiliarios.",
 };
+
 export default function Home() {
   return (
     <>

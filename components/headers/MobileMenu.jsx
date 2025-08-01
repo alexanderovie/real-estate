@@ -46,41 +46,13 @@ export default function MobileMenu() {
         <div className="mb-body">
           <ul id="menu-mobile-menu">
             <li
-              className={`menu-item menu-item-has-children-mobile  ${
-                homes.some((elm) => elm.href == pathname)
-                  ? "current-menu-item"
-                  : ""
-              } `}
+              className={`menu-item ${
+                pathname === "/" ? "current-item" : ""
+              }`}
             >
-              <a
-                href="#dropdown-menu-one"
-                className="item-menu-mobile collapsed"
-                data-bs-toggle="collapse"
-                aria-expanded="true"
-                aria-controls="dropdown-menu-one"
-              >
+              <Link href="/" className="item-menu-mobile">
                 Home
-              </a>
-              <div
-                id="dropdown-menu-one"
-                className="collapse"
-                data-bs-parent="#menu-mobile-menu"
-              >
-                <ul className="sub-mobile">
-                  {homes.map((link, i) => (
-                    <li
-                      key={i}
-                      className={
-                        pathname == link.href
-                          ? "menu-item current-item"
-                          : "menu-item "
-                      }
-                    >
-                      <Link href={link.href}>{link.label}</Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
+              </Link>
             </li>
             <li
               className={`menu-item menu-item-has-children-mobile  ${

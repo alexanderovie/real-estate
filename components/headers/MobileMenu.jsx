@@ -5,9 +5,20 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-
 export default function MobileMenu() {
   const pathname = usePathname();
+  
+  // Función para cerrar el menú móvil
+  const closeMobileMenu = () => {
+    const offcanvas = document.getElementById('menu-mobile');
+    if (offcanvas) {
+      const bsOffcanvas = bootstrap.Offcanvas.getInstance(offcanvas);
+      if (bsOffcanvas) {
+        bsOffcanvas.hide();
+      }
+    }
+  };
+
   const isParentActive = (menus) =>
     menus.some((menu) =>
       menu.submenu
@@ -50,7 +61,7 @@ export default function MobileMenu() {
                 pathname === "/" ? "current-item" : ""
               }`}
             >
-              <Link href="/" className="item-menu-mobile">
+              <Link href="/" className="item-menu-mobile" onClick={closeMobileMenu}>
                 Home
               </Link>
             </li>
@@ -109,6 +120,7 @@ export default function MobileMenu() {
                               <Link
                                 href={link.href}
                                 className="item-menu-mobile"
+                                onClick={closeMobileMenu}
                               >
                                 {link.label}
                               </Link>
@@ -179,6 +191,7 @@ export default function MobileMenu() {
                                   <Link
                                     href={link.href}
                                     className="item-menu-mobile"
+                                    onClick={closeMobileMenu}
                                   >
                                     {link.label}
                                   </Link>
@@ -195,7 +208,7 @@ export default function MobileMenu() {
                               : ""
                           }`}
                         >
-                          <Link href={links.href}>{links.label}</Link>
+                          <Link href={links.href} onClick={closeMobileMenu}>{links.label}</Link>
                         </li>
                       )}
                     </React.Fragment>
@@ -232,7 +245,7 @@ export default function MobileMenu() {
                           : "menu-item"
                       }
                     >
-                      <Link href={link.href}>{link.label}</Link>
+                      <Link href={link.href} onClick={closeMobileMenu}>{link.label}</Link>
                     </li>
                   ))}
                 </ul>
@@ -243,7 +256,7 @@ export default function MobileMenu() {
                 "/contact" == pathname ? "current-item" : ""
               }`}
             >
-              <Link href={`/contact`} className="tem-menu-mobile">
+              <Link href={`/contact`} className="tem-menu-mobile" onClick={closeMobileMenu}>
                 {" "}
                 Contact
               </Link>

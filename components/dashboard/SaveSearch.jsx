@@ -37,7 +37,7 @@ export default function SaveSearch() {
                           </div>
                         </td>
                         <td>
-                          <div>themesflat@gmail.com</div>
+                          <div>demo@fascinantedigital.com</div>
                         </td>
                         <td>
                           <div>October 14, 2024</div>
@@ -79,7 +79,7 @@ export default function SaveSearch() {
                           </div>
                         </td>
                         <td>
-                          <div>themesflat@gmail.com</div>
+                          <div>demo@fascinantedigital.com</div>
                         </td>
                         <td>
                           <div>October 14, 2024</div>

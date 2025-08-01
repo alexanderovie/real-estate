@@ -27,7 +27,7 @@ export default function DashboardNav({ color = "" }) {
         </svg>
       </div>
       <div className={`name ${color} `}>
-        Themesflat
+        Fascinante Digital
         <i className="icon-CaretDown" />
       </div>
       <div className=" menu-user">

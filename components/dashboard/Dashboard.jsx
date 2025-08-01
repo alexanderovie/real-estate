@@ -398,7 +398,7 @@ export default function Dashboard() {
                       />
                     </div>
                     <div className="content">
-                      <div className="name fw-6">Themesflat</div>
+                      <div className="name fw-6">Fascinante Digital</div>
                       <span className="caption-2 text-variant-3">
                         3 day ago
                       </span>

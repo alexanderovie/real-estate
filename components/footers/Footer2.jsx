@@ -296,7 +296,7 @@ export default function Footer2({ parentClass = "" }) {
               Copyright © {new Date().getFullYear()}{" "}
               <span className="fw-7">PROTY - REAL ESTATE</span> . Designed &amp;
               Developed by
-              <a href="#">Themesflat</a>
+              <a href="#">Fascinante Digital</a>
             </p>
             <div className="wrap-social">
               <div className="text-3 fw-6 text_white">Follow us</div>

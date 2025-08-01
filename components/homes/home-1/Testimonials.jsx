@@ -52,7 +52,7 @@ export default function Testimonials() {
                       <h6 className="name">
                         <a href="#">Annette Black</a>
                       </h6>
-                      <p className="text-2">CEO Themesflat</p>
+                      <p className="text-2">CEO Fascinante Digital</p>
                     </div>
                   </div>
                 </div>
@@ -84,7 +84,7 @@ export default function Testimonials() {
                       <h6 className="name">
                         <a href="#">Eleanor Pena</a>
                       </h6>
-                      <p className="text-2">CEO Themesflat</p>
+                      <p className="text-2">CEO Fascinante Digital</p>
                     </div>
                   </div>
                 </div>
@@ -118,7 +118,7 @@ export default function Testimonials() {
                       <h6 className="name">
                         <a href="#">Floyd Miles</a>
                       </h6>
-                      <p className="text-2">CEO Themesflat</p>
+                      <p className="text-2">CEO Fascinante Digital</p>
                     </div>
                   </div>
                 </div>
@@ -154,7 +154,7 @@ export default function Testimonials() {
                       <h6 className="name">
                         <a href="#">Floyd Miles</a>
                       </h6>
-                      <p className="text-2">CEO Themesflat</p>
+                      <p className="text-2">CEO Fascinante Digital</p>
                     </div>
                   </div>
                 </div>
@@ -184,7 +184,7 @@ export default function Testimonials() {
                       <h6 className="name">
                         <a href="#">Cody Fisher</a>
                       </h6>
-                      <p className="text-2">CEO Themesflat</p>
+                      <p className="text-2">CEO Fascinante Digital</p>
                     </div>
                   </div>
                 </div>
@@ -215,7 +215,7 @@ export default function Testimonials() {
                       <h6 className="name">
                         <a href="#">Ralph Edwards</a>
                       </h6>
-                      <p className="text-2">CEO Themesflat</p>
+                      <p className="text-2">CEO Fascinante Digital</p>
                     </div>
                   </div>
                 </div>
@@ -249,7 +249,7 @@ export default function Testimonials() {
                       <h6 className="name">
                         <a href="#">Jacob Jones</a>
                       </h6>
-                      <p className="text-2">CEO Themesflat</p>
+                      <p className="text-2">CEO Fascinante Digital</p>
                     </div>
                   </div>
                 </div>
@@ -280,7 +280,7 @@ export default function Testimonials() {
                       <h6 className="name">
                         <a href="#">Ralph Edwards</a>
                       </h6>
-                      <p className="text-2">CEO Themesflat</p>
+                      <p className="text-2">CEO Fascinante Digital</p>
                     </div>
                   </div>
                 </div>
@@ -314,7 +314,7 @@ export default function Testimonials() {
                       <h6 className="name">
                         <a href="#">Floyd Miles</a>
                       </h6>
-                      <p className="text-2">CEO Themesflat</p>
+                      <p className="text-2">CEO Fascinante Digital</p>
                     </div>
                   </div>
                 </div>

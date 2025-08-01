@@ -168,7 +168,7 @@ export default function About() {
                   </div>
                   <div className="content">
                     <div className="sub">Office address</div>
-                    <a href="#">themesflat@gmail.com</a>
+                    <a href="#">demo@fascinantedigital.com</a>
                   </div>
                 </li>
               </ul>

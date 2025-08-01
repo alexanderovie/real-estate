@@ -4,35 +4,35 @@ export const testimonials = [
     description:
       "Phasellus efficitur dictum urna, non elementum mauris mollis a. Duis lacinia arcu ac lorem ultricies porta. Maecenas eleifend malesuada egestas. In eu eros hendrerit, pharetra justo id, blandit orci.",
     name: "Ronald Richards",
-    role: "CEO Themesflat",
+    role: "CEO Fascinante Digital",
   },
   {
     avatarSrc: "/images/avatar/testimonials-2.jpg",
     description:
       "Proin auctor, mauris at tristique ullamcorper, nunc nisi sagittis velit, eget blandit dolor arcu sed ante. Fusce euismod varius massa, id viverra nisl semper ut. Aliquam felis eros, eleifend non faucibus at.",
     name: "Courtney Henry",
-    role: "CEO Themesflat",
+    role: "CEO Fascinante Digital",
   },
   {
     avatarSrc: "/images/avatar/testimonials-4.jpg",
     description:
       "Phasellus efficitur dictum urna, non elementum mauris mollis a. Duis lacinia arcu ac lorem ultricies porta. Maecenas eleifend malesuada egestas. In eu eros hendrerit, pharetra justo id, blandit orci.",
     name: "Ronald Richards",
-    role: "CEO Themesflat",
+    role: "CEO Fascinante Digital",
   },
   {
     avatarSrc: "/images/avatar/testimonials-3.jpg",
     description:
       "Sed eget nibh eros. Phasellus pharetra ac leo et auctor. Donec libero dui, blandit id nulla laoreet, pellentesque egestas ante. Etiam mollis tincidunt elit, sit amet sodales tellus finibus ut. Orci varius natoque.",
     name: "Annette Black",
-    role: "CEO Themesflat",
+    role: "CEO Fascinante Digital",
   },
   {
     avatarSrc: "/images/avatar/testimonials-3.jpg",
     description:
       "Phasellus efficitur dictum urna, non elementum mauris mollis a. Duis lacinia arcu ac lorem ultricies porta. Maecenas eleifend malesuada egestas. In eu eros hendrerit, pharetra justo id, blandit orci.",
     name: "Ronald Richards",
-    role: "CEO Themesflat",
+    role: "CEO Fascinante Digital",
   },
 ];
 
@@ -88,7 +88,7 @@ export const testimonials3 = [
     description:
       "Phasellus efficitur dictum urna, non elementum mauris mollis a. Duis lacinia arcu ac lorem ultricies porta. Maecenas eleifend malesuada egestas. In eu eros hendrerit, pharetra justo id, blandit orci.",
     name: "Annette Black",
-    role: "CEO Themesflat",
+    role: "CEO Fascinante Digital",
   },
   {
     id: 2,
@@ -98,7 +98,7 @@ export const testimonials3 = [
     description:
       "Proin auctor, mauris at tristique ullamcorper, fi nunc nisi sagittis velit, eget blandit dolor arcu sed ante. Fusce euismod varius massa, id viverra nisl semper ut. Aliquam felis eros, eleifend non faucibus at.",
     name: "Annette Black",
-    role: "CEO Themesflat",
+    role: "CEO Fascinante Digital",
   },
   {
     id: 3,
@@ -108,7 +108,7 @@ export const testimonials3 = [
     description:
       "Sed eget nibh eros. Phasellus pharetra ac leo et auctor. Donec libero dui, blandit id nulla laoreet, pellentesque egestas ante. Etiam mollis tincidunt elit, sit amet sodales tellus finibus ut. Orci varius natoque.",
     name: "Annette Black",
-    role: "CEO Themesflat",
+    role: "CEO Fascinante Digital",
   },
   {
     id: 4,
@@ -118,7 +118,7 @@ export const testimonials3 = [
     description:
       "Sed eget nibh eros. Phasellus pharetra ac leo et auctor. Donec libero dui, blandit id nulla laoreet, pellentesque egestas ante. Etiam mollis tincidunt elit, sit amet sodales tellus finibus ut. Orci varius natoque.",
     name: "Annette Black",
-    role: "CEO Themesflat",
+    role: "CEO Fascinante Digital",
   },
   {
     id: 5,
@@ -128,7 +128,7 @@ export const testimonials3 = [
     description:
       "Phasellus efficitur dictum urna, non elementum mauris mollis a. Duis lacinia arcu ac lorem ultricies porta. Maecenas eleifend malesuada egestas. In eu eros hendrerit, pharetra justo id, blandit orci.",
     name: "Ronald Richards",
-    role: "CEO Themesflat",
+    role: "CEO Fascinante Digital",
   },
 ];
 
@@ -139,7 +139,7 @@ export const slides = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rhoncus faucibus lacinia. Nunc ac augue facilisis, vestibulum dolor sed, blandit lectus. Sed ac dolor et eros suscipit.",
     avatar: "/images/avatar/avt-png12.png",
     name: "Courtney Henry",
-    role: "Ceo & Founder at Themesflat",
+    role: "Ceo & Founder at Fascinante Digital",
   },
   {
     id: 2,
@@ -147,7 +147,7 @@ export const slides = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rhoncus faucibus lacinia. Nunc ac augue facilisis, vestibulum dolor sed, blandit lectus. Sed ac dolor et eros suscipit.",
     avatar: "/images/avatar/avt-png12.png",
     name: "Courtney Henry",
-    role: "Ceo & Founder at Themesflat",
+    role: "Ceo & Founder at Fascinante Digital",
   },
   {
     id: 3,
@@ -155,7 +155,7 @@ export const slides = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rhoncus faucibus lacinia. Nunc ac augue facilisis, vestibulum dolor sed, blandit lectus. Sed ac dolor et eros suscipit.",
     avatar: "/images/avatar/avt-png12.png",
     name: "Courtney Henry",
-    role: "Ceo & Founder at Themesflat",
+    role: "Ceo & Founder at Fascinante Digital",
   },
 ];
 
@@ -166,7 +166,7 @@ export const testimonials4 = [
     description:
       "Proin auctor, mauris at tristique ullamcorper, nunc nisi sagittis velit, eget blandit dolor arcu sed ante. Fusce euismod varius massa, id viverra nisl semper ut. Aliquam felis eros, eleifend non faucibus at.",
     name: "Ronald Richards",
-    role: "CEO Themesflat",
+    role: "CEO Fascinante Digital",
   },
   {
     id: 2,
@@ -174,7 +174,7 @@ export const testimonials4 = [
     description:
       "Proin auctor, mauris at tristique ullamcorper, nunc nisi sagittis velit, eget blandit dolor arcu sed ante. Fusce euismod varius massa, id viverra nisl semper ut. Aliquam felis eros, eleifend non faucibus at.",
     name: "Courtney Henry",
-    role: "CEO Themesflat",
+    role: "CEO Fascinante Digital",
   },
   {
     id: 3,
@@ -182,7 +182,7 @@ export const testimonials4 = [
     description:
       "Proin auctor, mauris at tristique ullamcorper, nunc nisi sagittis velit, eget blandit dolor arcu sed ante. Fusce euismod varius massa, id viverra nisl semper ut. Aliquam felis eros, eleifend non faucibus at.",
     name: "Ronald Richards",
-    role: "CEO Themesflat",
+    role: "CEO Fascinante Digital",
   },
   {
     id: 4,
@@ -190,7 +190,7 @@ export const testimonials4 = [
     description:
       "Proin auctor, mauris at tristique ullamcorper, nunc nisi sagittis velit, eget blandit dolor arcu sed ante. Fusce euismod varius massa, id viverra nisl semper ut. Aliquam felis eros, eleifend non faucibus at.",
     name: "Annette Black",
-    role: "CEO Themesflat",
+    role: "CEO Fascinante Digital",
   },
   {
     id: 5,
@@ -198,7 +198,7 @@ export const testimonials4 = [
     description:
       "Proin auctor, mauris at tristique ullamcorper, nunc nisi sagittis velit, eget blandit dolor arcu sed ante. Fusce euismod varius massa, id viverra nisl semper ut. Aliquam felis eros, eleifend non faucibus at.",
     name: "Ronald Richards",
-    role: "CEO Themesflat",
+    role: "CEO Fascinante Digital",
   },
 ];
 
@@ -209,7 +209,7 @@ export const testimonials5 = [
       "My experience with property management services has exceeded expectations. They efficiently manage properties with a professional and attentive approach in every situation. I feel reassured that any issue will be resolved promptly and effectively.",
     avatar: "/images/avatar/testimonials-4.jpg",
     name: "Annette Black",
-    role: "CEO Themesflat",
+    role: "CEO Fascinante Digital",
     width: 200,
     height: 200,
   },
@@ -219,7 +219,7 @@ export const testimonials5 = [
       "Quisque tincidunt, nunc vitae maximus lobortis, tellus risus fringilla mi, pulvinar feugiat lacus ipsum nec tortor. Aliquam a venenatis orci, id bibendum eros.",
     avatar: "/images/avatar/avt-png7.png",
     name: "Eleanor Pena",
-    role: "CEO Themesflat",
+    role: "CEO Fascinante Digital",
     width: 120,
     height: 120,
   },
@@ -229,7 +229,7 @@ export const testimonials5 = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut aliquam tempus urna id interdum. Proin iaculis erat id sapien venenatis convallis. Nam et ullamcorper nibh. Nulla malesuada consectetur sem ut varius.",
     avatar: "/images/avatar/avt-png12.png",
     name: "Floyd Miles",
-    role: "CEO Themesflat",
+    role: "CEO Fascinante Digital",
     width: 51,
     height: 51,
   },
@@ -239,7 +239,7 @@ export const testimonials5 = [
       "My experience with property management services has exceeded expectations. They efficiently manage properties with a professional and attentive approach in every situation. I feel reassured that any issue will be resolved promptly and effectively.",
     avatar: "/images/avatar/testimonials-4.jpg",
     name: "Annette Black",
-    role: "CEO Themesflat",
+    role: "CEO Fascinante Digital",
     width: 200,
     height: 200,
   },
@@ -249,7 +249,7 @@ export const testimonials5 = [
       "Quisque tincidunt, nunc vitae maximus lobortis, tellus risus fringilla mi, pulvinar feugiat lacus ipsum nec tortor. Aliquam a venenatis orci, id bibendum eros.",
     avatar: "/images/avatar/avt-png7.png",
     name: "Eleanor Pena",
-    role: "CEO Themesflat",
+    role: "CEO Fascinante Digital",
     width: 120,
     height: 120,
   },
@@ -259,7 +259,7 @@ export const testimonials5 = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut aliquam tempus urna id interdum. Proin iaculis erat id sapien venenatis convallis. Nam et ullamcorper nibh. Nulla malesuada consectetur sem ut varius.",
     avatar: "/images/avatar/avt-png12.png",
     name: "Floyd Miles",
-    role: "CEO Themesflat",
+    role: "CEO Fascinante Digital",
     width: 51,
     height: 51,
   },
@@ -269,7 +269,7 @@ export const testimonials5 = [
       "My experience with property management services has exceeded expectations. They efficiently manage properties with a professional and attentive approach in every situation. I feel reassured that any issue will be resolved promptly and effectively.",
     avatar: "/images/avatar/testimonials-4.jpg",
     name: "Annette Black",
-    role: "CEO Themesflat",
+    role: "CEO Fascinante Digital",
     width: 200,
     height: 200,
   },
@@ -279,7 +279,7 @@ export const testimonials5 = [
       "Quisque tincidunt, nunc vitae maximus lobortis, tellus risus fringilla mi, pulvinar feugiat lacus ipsum nec tortor. Aliquam a venenatis orci, id bibendum eros.",
     avatar: "/images/avatar/avt-png7.png",
     name: "Eleanor Pena",
-    role: "CEO Themesflat",
+    role: "CEO Fascinante Digital",
     width: 120,
     height: 120,
   },
@@ -289,7 +289,7 @@ export const testimonials5 = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut aliquam tempus urna id interdum. Proin iaculis erat id sapien venenatis convallis. Nam et ullamcorper nibh. Nulla malesuada consectetur sem ut varius.",
     avatar: "/images/avatar/avt-png12.png",
     name: "Floyd Miles",
-    role: "CEO Themesflat",
+    role: "CEO Fascinante Digital",
     width: 51,
     height: 51,
   },
@@ -299,7 +299,7 @@ export const testimonials5 = [
       "My experience with property management services has exceeded expectations. They efficiently manage properties with a professional and attentive approach in every situation. I feel reassured that any issue will be resolved promptly and effectively.",
     avatar: "/images/avatar/testimonials-4.jpg",
     name: "Annette Black",
-    role: "CEO Themesflat",
+    role: "CEO Fascinante Digital",
     width: 200,
     height: 200,
   },
@@ -309,7 +309,7 @@ export const testimonials5 = [
       "Quisque tincidunt, nunc vitae maximus lobortis, tellus risus fringilla mi, pulvinar feugiat lacus ipsum nec tortor. Aliquam a venenatis orci, id bibendum eros.",
     avatar: "/images/avatar/avt-png7.png",
     name: "Eleanor Pena",
-    role: "CEO Themesflat",
+    role: "CEO Fascinante Digital",
     width: 120,
     height: 120,
   },
@@ -319,7 +319,7 @@ export const testimonials5 = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut aliquam tempus urna id interdum. Proin iaculis erat id sapien venenatis convallis. Nam et ullamcorper nibh. Nulla malesuada consectetur sem ut varius.",
     avatar: "/images/avatar/avt-png12.png",
     name: "Floyd Miles",
-    role: "CEO Themesflat",
+    role: "CEO Fascinante Digital",
     width: 51,
     height: 51,
   },

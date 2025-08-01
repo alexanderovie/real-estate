@@ -54,7 +54,7 @@ export default function AgentDetails({ agent }) {
                   <p className="font-poppins">
                     Company Agent at{" "}
                     <a href="#" className="fw-7">
-                      Themesflat
+                      Fascinante Digital
                     </a>
                   </p>
                 </div>
@@ -91,7 +91,7 @@ export default function AgentDetails({ agent }) {
                         strokeLinejoin="round"
                       />
                     </svg>
-                    <a href="#">themesflat@gmail.com</a>
+                    <a href="#">demo@fascinantedigital.com</a>
                   </li>
                   <li>
                     <svg

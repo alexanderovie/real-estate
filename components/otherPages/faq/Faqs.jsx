@@ -475,7 +475,7 @@ export default function Faqs() {
                       </li>
                       <li>
                         <i className="icon-mail" />
-                        <a href="#">themesflat@gmail.com</a>
+                        <a href="#">demo@fascinantedigital.com</a>
                       </li>
                     </ul>
                   </div>

@@ -286,7 +286,7 @@ export default function MobileMenu() {
                 Call Us Now: <span className="number">1-555-678-8888</span>
               </li>
               <li>
-                Support 24/7: <a href="#">themesflat@gmail.com</a>
+                Support 24/7: <a href="#">demo@fascinantedigital.com</a>
               </li>
               <li>
                 <div className="wrap-social">

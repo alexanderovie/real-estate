@@ -106,7 +106,7 @@ export default function Footer1({ logo = "/images/logo/logo-2@2x.png" }) {
                   <div className="content">
                     <div className="title text-1">Nee live help</div>
                     <h6 className="fw-4">
-                      <a href="#">proty-support@gmail.com</a>
+                      <a href="#">fascinante-support@gmail.com</a>
                     </h6>
                   </div>
                 </div>
@@ -282,7 +282,7 @@ export default function Footer1({ logo = "/images/logo/logo-2@2x.png" }) {
           <div className="footer-bottom">
             <p>
               Copyright © {new Date().getFullYear()}{" "}
-              <span className="fw-7">PROTY - REAL ESTATE</span> . Designed &amp;
+              <span className="fw-7">FASCINANTE - REAL ESTATE</span> . Designed &amp;
               Developed by
               <a href="#">Fascinante Digital</a>
             </p>

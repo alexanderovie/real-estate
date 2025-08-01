@@ -8,8 +8,8 @@ import PropertyTopmap from "@/components/properties/PropertyTopmap";
 import React from "react";
 
 export const metadata = {
-  title: "Property Half Map Grid || Proty - Real Estate React Nextjs Template",
-  description: "Proty - Real Estate React Nextjs Template",
+  title: "Property Half Map Grid || Fascinante - Real Estate React Nextjs Template",
+  description: "Fascinante - Real Estate React Nextjs Template",
 };
 export default function page() {
   return (
